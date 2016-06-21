@@ -1,0 +1,21 @@
+ {
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Yemeksepeti Randomer",
+  "description": "Karasız arkadaşlar için Yemeksepeti için karar motoru.",
+  "icons": {
+    "128": "img/icon128.png",
+    "48": "img/icon48.png",
+    "16": "img/icon16.png"
+  },
+  "browser_action": {
+    "name": "Yemeksepeti Radomer",
+    "default_icon": "img/icon16.png"
+  },
+  "content_scripts": [ {
+    "js": [ "jquery.min.js", "background.js" ],
+    "css": ["main.css"],
+    "matches": [ "http://*/*", "https://*/*"],
+    "run_at": "document_end"
+  }]
+}
