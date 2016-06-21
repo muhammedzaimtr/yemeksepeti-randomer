@@ -2,6 +2,10 @@
 	background-color: #006098;
 	text-decoration: none;
 }
+.alert-random a {
+	color: #3c763d;
+    text-decoration: underline;
+}
 .random-button-xs {
 	padding: 8px;
 	font-family: Verdana, Geneva, sans-serif;
